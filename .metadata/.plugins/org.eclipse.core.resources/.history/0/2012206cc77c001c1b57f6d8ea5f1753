@@ -1,0 +1,32 @@
+<%@page import="com.learncode.entities.Post"%>
+<%@page import="com.learncode.helper.DBConnection"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="com.learncode.dao.PostDao"%>
+
+<%@page import="com.learncode.entities.User"%>
+<%
+User user = (User) session.getAttribute("currentUser");
+if (user == null) {
+	response.sendRedirect("login.jsp");
+}
+%>
+<%
+int postId = Integer.parseInt(request.getParameter("post_id"));
+PostDao d =new PostDao(DBConnection.getConn());
+Post p = d.getPostByPostId(postId);
+%>
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title><%=p.getpTitle() %></title>
+<%@include file="component/all-css.jsp"%>
+</head>
+<body>
+	This is blog Post is :
+	<%=postId%>
+</body>
+</html>

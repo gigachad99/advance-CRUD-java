@@ -1,0 +1,37 @@
+
+<%@page import="com.learncode.entities.Post"%>
+<%@page import="java.util.List"%>
+<%@page import="com.learncode.helper.DBConnection"%>
+<%@page import="com.learncode.dao.PostDao"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Loading...</title>
+<%@include file="component/all-css.jsp"%>
+</head>
+<body>
+	<%
+	PostDao d = new PostDao(DBConnection.getConn());
+	List<Post> posts = d.getAllPosts();
+	for (Post p : posts) {
+	%>
+	<div class="col-md-6 mt-2">
+		<div class="card">
+		<img class="card-img-top" alt="" src="blog_pics/<%=p.getpPic() %>">
+			<div class="card-body">
+				<b><%=p.getpTitle()%></b>
+				<p><%=p.getpContent() %>
+				<pre><%=p.getpCode() %></pre>
+			</div>
+		</div>
+
+
+	</div>
+	<%
+	}
+	%>
+</body>
+</html>

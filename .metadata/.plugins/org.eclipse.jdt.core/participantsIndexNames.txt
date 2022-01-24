@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\DucDo\advane_demo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1552487573.index
+\LearnCode\src\main\java
+C:\Users\DucDo\advane_demo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3172280167.index
+\LearnCode\src\main\resources
+C:\Users\DucDo\advane_demo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3214603402.index
+\LearnCode\src\main\resources

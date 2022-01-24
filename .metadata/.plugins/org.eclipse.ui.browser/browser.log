@@ -1,0 +1,9 @@
+
+Jan 01, 2022 22:38:47.443 NEW SESSION
+Jan 01, 2022 22:38:47.443 [5052:12216:0101/223847.441:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Jan 01, 2022 22:38:47.444 [5052:12216:0101/223847.441:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+Jan 01, 2022 22:38:47.445 [5052:12216:0101/223847.441:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Jan 01, 2022 22:38:47.446 [5052:12216:0101/223847.446:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Jan 01, 2022 22:38:47.455 [5052:12628:0101/223847.455:ERROR:device_event_log_impl.cc(214)] [22:38:47.454] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 01, 2022 22:40:07.708 [5052:6368:0101/224007.707:ERROR:component_installer.cc(144)] Move failed.: Access is denied. (0x5)
+Jan 01, 2022 22:53:41.296 [5052:12628:0101/225341.295:ERROR:device_event_log_impl.cc(214)] [22:53:41.296] USB: usb_service_win.cc:261 Failed to get device driver name: Element not found. (0x490)
