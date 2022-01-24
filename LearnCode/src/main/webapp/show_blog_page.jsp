@@ -249,7 +249,7 @@ Post p = d.getPostByPostId(postId);
 	</div>
 	<!-- end of main content -->
 
-	<h1>Testing...</h1>
+	
 
 
 	<!-- -JS- -->
